@@ -1,0 +1,85 @@
+.small-carousel {
+    max-width: 100px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -20px; 
+    left: 0;
+    right: 0;
+    text-align: center; 
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    margin: 0 5px;
+}
+
+.carousel-indicators li.active {
+    background-color: black; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center; 
+    color: #fff;
+    font-size: 24px; 
+}
+
+.carousel-control-prev {
+    left: 0; 
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.colega {
+    padding: 10px 30px; 
+}
+
+.colega img {
+    width: 100%; 
+}
+
+.star {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.star:after {
+    content: '⭐';
+}
+
+.star.liked:after {
+    color: gold;
+}
+
+.like-count {
+    margin-left: 5px;
+}
+
+.colega-image {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+}
+
+.colega p {
+    margin-top: 10px;
+}
+
